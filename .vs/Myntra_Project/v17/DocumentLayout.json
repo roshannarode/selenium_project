@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rosha\\Desktop\\Mytra_Project\\Mytra_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5009A113-FE85-408D-AA62-9BD5A7D829F1}|Myntra_Project.csproj|c:\\users\\rosha\\desktop\\mytra_project\\mytra_project\\seleniumtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5009A113-FE85-408D-AA62-9BD5A7D829F1}|Myntra_Project.csproj|solutionrelative:seleniumtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5009A113-FE85-408D-AA62-9BD5A7D829F1}|Mytra_Project.csproj|c:\\users\\rosha\\desktop\\mytra_project\\mytra_project\\drivers\\chromedriver-win64\\chromedriver.exe||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{5009A113-FE85-408D-AA62-9BD5A7D829F1}|Mytra_Project.csproj|solutionrelative:drivers\\chromedriver-win64\\chromedriver.exe||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5009A113-FE85-408D-AA62-9BD5A7D829F1}|Myntra_Project.csproj|c:\\users\\rosha\\desktop\\mytra_project\\mytra_project\\myntra_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5009A113-FE85-408D-AA62-9BD5A7D829F1}|Myntra_Project.csproj|solutionrelative:myntra_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "chromedriver.exe",
+              "DocumentMoniker": "C:\\Users\\rosha\\Desktop\\Mytra_Project\\Mytra_Project\\drivers\\chromedriver-win64\\chromedriver.exe",
+              "RelativeDocumentMoniker": "drivers\\chromedriver-win64\\chromedriver.exe",
+              "ToolTip": "C:\\Users\\rosha\\Desktop\\Mytra_Project\\Mytra_Project\\drivers\\chromedriver-win64\\chromedriver.exe",
+              "RelativeToolTip": "drivers\\chromedriver-win64\\chromedriver.exe",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000165|",
+              "WhenOpened": "2025-08-12T15:55:59.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Myntra_Project.csproj",
+              "DocumentMoniker": "C:\\Users\\rosha\\Desktop\\Mytra_Project\\Mytra_Project\\Myntra_Project.csproj",
+              "RelativeDocumentMoniker": "Myntra_Project.csproj",
+              "ToolTip": "C:\\Users\\rosha\\Desktop\\Mytra_Project\\Mytra_Project\\Myntra_Project.csproj",
+              "RelativeToolTip": "Myntra_Project.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-12T15:46:16.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeleniumTest.cs",
+              "DocumentMoniker": "C:\\Users\\rosha\\Desktop\\Mytra_Project\\Mytra_Project\\SeleniumTest.cs",
+              "RelativeDocumentMoniker": "SeleniumTest.cs",
+              "ToolTip": "C:\\Users\\rosha\\Desktop\\Mytra_Project\\Mytra_Project\\SeleniumTest.cs",
+              "RelativeToolTip": "SeleniumTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T15:34:58.983Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
