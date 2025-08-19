@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Myntra_Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ea81dfdec55b1ed7170c4ca8b16caa9aab52ec2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Myntra_Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Myntra_Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

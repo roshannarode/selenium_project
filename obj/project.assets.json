@@ -1890,9 +1890,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rosha\\Desktop\\Mytra_Project\\Mytra_Project\\Myntra_Project.csproj",
-      "projectName": "Myntra_Project",
-      "projectPath": "C:\\Users\\rosha\\Desktop\\Mytra_Project\\Mytra_Project\\Myntra_Project.csproj",
+      "projectUniqueName": "C:\\Users\\rosha\\Desktop\\Mytra_Project\\Mytra_Project\\Selenium_project.csproj",
+      "projectName": "Selenium_project",
+      "projectPath": "C:\\Users\\rosha\\Desktop\\Mytra_Project\\Mytra_Project\\Selenium_project.csproj",
       "packagesPath": "C:\\Users\\rosha\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\rosha\\Desktop\\Mytra_Project\\Mytra_Project\\obj\\",
       "projectStyle": "PackageReference",
