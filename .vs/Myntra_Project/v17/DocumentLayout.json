@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rosha\\Desktop\\Mytra_Project\\Mytra_Project\\",
+  "WorkspaceRootPath": "C:\\Users\\Roshan Narode\\Desktop\\Selenium_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5009A113-FE85-408D-AA62-9BD5A7D829F1}|Myntra_Project.csproj|c:\\users\\rosha\\desktop\\mytra_project\\mytra_project\\seleniumtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5009A113-FE85-408D-AA62-9BD5A7D829F1}|Myntra_Project.csproj|solutionrelative:seleniumtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5009A113-FE85-408D-AA62-9BD5A7D829F1}|Selenium_project.csproj|c:\\users\\roshan narode\\desktop\\selenium_project\\seleniumtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5009A113-FE85-408D-AA62-9BD5A7D829F1}|Selenium_project.csproj|solutionrelative:seleniumtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5009A113-FE85-408D-AA62-9BD5A7D829F1}|Selenium_project.csproj|c:\\users\\rosha\\desktop\\mytra_project\\mytra_project\\selenium_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{5009A113-FE85-408D-AA62-9BD5A7D829F1}|Selenium_project.csproj|c:\\users\\roshan narode\\desktop\\selenium_project\\selenium_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5009A113-FE85-408D-AA62-9BD5A7D829F1}|Selenium_project.csproj|solutionrelative:selenium_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -18,34 +18,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Myntra_Project.csproj",
-              "DocumentMoniker": "C:\\Users\\rosha\\Desktop\\Mytra_Project\\Mytra_Project\\Selenium_project.csproj",
+              "Title": "Selenium_project.csproj",
+              "DocumentMoniker": "C:\\Users\\Roshan Narode\\Desktop\\Selenium_Project\\Selenium_project.csproj",
               "RelativeDocumentMoniker": "Selenium_project.csproj",
-              "ToolTip": "C:\\Users\\rosha\\Desktop\\Mytra_Project\\Mytra_Project\\Selenium_project.csproj",
+              "ToolTip": "C:\\Users\\Roshan Narode\\Desktop\\Selenium_Project\\Selenium_project.csproj",
               "RelativeToolTip": "Selenium_project.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-12T15:46:16.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T15:46:16.405Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "SeleniumTest.cs",
-              "DocumentMoniker": "C:\\Users\\rosha\\Desktop\\Mytra_Project\\Mytra_Project\\SeleniumTest.cs",
+              "DocumentMoniker": "C:\\Users\\Roshan Narode\\Desktop\\Selenium_Project\\SeleniumTest.cs",
               "RelativeDocumentMoniker": "SeleniumTest.cs",
-              "ToolTip": "C:\\Users\\rosha\\Desktop\\Mytra_Project\\Mytra_Project\\SeleniumTest.cs",
+              "ToolTip": "C:\\Users\\Roshan Narode\\Desktop\\Selenium_Project\\SeleniumTest.cs",
               "RelativeToolTip": "SeleniumTest.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwAkAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-12T15:34:58.983Z",
               "EditorCaption": ""
