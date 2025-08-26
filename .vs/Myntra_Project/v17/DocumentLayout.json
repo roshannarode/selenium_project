@@ -18,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeleniumTest.cs",
+              "DocumentMoniker": "C:\\Users\\Roshan Narode\\Desktop\\Selenium_Project\\SeleniumTest.cs",
+              "RelativeDocumentMoniker": "SeleniumTest.cs",
+              "ToolTip": "C:\\Users\\Roshan Narode\\Desktop\\Selenium_Project\\SeleniumTest.cs",
+              "RelativeToolTip": "SeleniumTest.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwD4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T15:34:58.983Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -31,19 +44,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-08-12T15:46:16.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SeleniumTest.cs",
-              "DocumentMoniker": "C:\\Users\\Roshan Narode\\Desktop\\Selenium_Project\\SeleniumTest.cs",
-              "RelativeDocumentMoniker": "SeleniumTest.cs",
-              "ToolTip": "C:\\Users\\Roshan Narode\\Desktop\\Selenium_Project\\SeleniumTest.cs",
-              "RelativeToolTip": "SeleniumTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T15:34:58.983Z",
-              "EditorCaption": ""
             }
           ]
         }
