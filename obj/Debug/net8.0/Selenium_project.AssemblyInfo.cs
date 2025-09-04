@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Selenium_project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ca86e6b659f34cd82de3ccfa58823ccefceea2f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ce808412dc3bac6de2fcf340a9244075360f1c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Selenium_project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Selenium_project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2,87 +2,65 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.DevTools.V136.Network;
 using OpenQA.Selenium.Support.UI;
+using Selenium_project;
+using Selenium_project.POM;
 
 
 namespace Mytra_Project
 {
     public class Tests
-    {   
+    {
 
-      
+        private IWebDriver driver = new ChromeDriver();
 
-        [SetUp]
-        
+       
+
+        [SetUp] 
         public void Setup()
         {
-        }
 
-        [Test]
-        public void Amezon()
-        {
-            IWebDriver driver = new ChromeDriver();
+            
 
             driver.Navigate().GoToUrl("https://www.amazon.in");
             driver.Manage().Window.Maximize();
 
-            
-            IWebElement submitContinue = driver.FindElement(By.XPath("//button[@type='submit']"));
-
-            if (submitContinue.Displayed)
+            if (Methods.isDisplayed(driver, By.XPath("//button[@type='submit']")))
             {
+                IWebElement submitContinue = driver.FindElement(By.XPath("//button[@type='submit']"));
                 submitContinue.Click();
             }
+        }
 
-            IWebElement searchText = driver.FindElement(By.Id("twotabsearchtextbox"));
-            searchText.SendKeys("mobile phones");
+        [Test]
+        public void Search()
+        { 
+            
+       
+            SearchPage newpage = new SearchPage(driver);
 
-            IWebElement search = driver.FindElement(By.Id("nav-search-submit-button"));
-            search.Click();
+            newpage.searchInput("mobiles");
+            
 
-            IWebElement seeMore = driver.FindElement(By.XPath("//div[@id='brandsRefinements']//span[@class='a-expander-prompt']"));
-            seeMore.Click();
+            String [] brands = {"Apple","Samsung", "OnePlus"};
 
-             IList <IWebElement> brands = driver.FindElements(By.XPath("//div[@id='brandsRefinements']//span[@class='a-size-base a-color-base']"));
-             Console.WriteLine(brands.Count);
 
-            foreach (IWebElement brand in brands)
+            foreach (String brand in brands)
             {
-                string brandName = brand.Text; // or "name"
-
-                if (brand.Text == "Apple" )
-                {
-                    brand.Click();
-                   
-                }
-
+                Methods.brands(driver, brand);
             }
 
-            IWebElement seeMore1 = driver.FindElement(By.XPath("//div[@id='brandsRefinements']//span[@class='a-expander-prompt']"));
-            seeMore1.Click();
-
-            IList<IWebElement> brands1 = driver.FindElements(By.XPath("//div[@id='brandsRefinements']//span[@class='a-size-base a-color-base']"));
-            Console.WriteLine(brands1.Count);
-
-            foreach (IWebElement brand1 in brands1)
-            {
-           
-                if (brand1.Text == "Samsung")
-                {
-                    brand1.Click();
-                    break;
-                }
+            
+          
+        }
 
 
-            }
-
-          /*  foreach (String outputText in brandNames)
-            {
-                Console.WriteLine(outputText);
-            }
-          */
-
+        [TearDown]
+        public void TearDown()
+        {
             driver.Quit();
 
         }
+
+
     }
 }
