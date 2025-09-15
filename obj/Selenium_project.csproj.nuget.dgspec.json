@@ -70,11 +70,11 @@
             },
             "Selenium.Support": {
               "target": "Package",
-              "version": "[4.34.0, )"
+              "version": "[4.35.0, )"
             },
             "Selenium.WebDriver": {
               "target": "Package",
-              "version": "[4.34.0, )"
+              "version": "[4.35.0, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

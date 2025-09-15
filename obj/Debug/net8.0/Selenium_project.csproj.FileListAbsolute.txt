@@ -1,8 +1,5 @@
 C:\Users\Roshan Narode\Desktop\Selenium_Project\bin\Debug\net8.0\testhost.exe
 C:\Users\Roshan Narode\Desktop\Selenium_Project\bin\Debug\net8.0\testhost.dll
-C:\Users\Roshan Narode\Desktop\Selenium_Project\bin\Debug\net8.0\selenium-manager\linux\selenium-manager
-C:\Users\Roshan Narode\Desktop\Selenium_Project\bin\Debug\net8.0\selenium-manager\macos\selenium-manager
-C:\Users\Roshan Narode\Desktop\Selenium_Project\bin\Debug\net8.0\selenium-manager\windows\selenium-manager.exe
 C:\Users\Roshan Narode\Desktop\Selenium_Project\bin\Debug\net8.0\NUnit3.TestAdapter.pdb
 C:\Users\Roshan Narode\Desktop\Selenium_Project\bin\Debug\net8.0\nunit.engine.dll
 C:\Users\Roshan Narode\Desktop\Selenium_Project\bin\Debug\net8.0\nunit.engine.api.dll
@@ -178,3 +175,6 @@ C:\Users\Roshan Narode\Desktop\Selenium_Project\obj\Debug\net8.0\Selenium_projec
 C:\Users\Roshan Narode\Desktop\Selenium_Project\obj\Debug\net8.0\Selenium_project.genruntimeconfig.cache
 C:\Users\Roshan Narode\Desktop\Selenium_Project\obj\Debug\net8.0\ref\Selenium_project.dll
 C:\Users\Roshan Narode\Desktop\Selenium_Project\bin\Debug\net8.0\brands.json
+C:\Users\Roshan Narode\Desktop\Selenium_Project\bin\Debug\net8.0\runtimes\linux\native\selenium-manager
+C:\Users\Roshan Narode\Desktop\Selenium_Project\bin\Debug\net8.0\runtimes\osx\native\selenium-manager
+C:\Users\Roshan Narode\Desktop\Selenium_Project\bin\Debug\net8.0\runtimes\win\native\selenium-manager.exe

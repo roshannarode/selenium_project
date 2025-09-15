@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "a3ZxzCv1cYc=",
+  "dgSpecHash": "2aioMVzz34U=",
   "success": true,
   "projectFilePath": "C:\\Users\\Roshan Narode\\Desktop\\Selenium_Project\\Selenium_project.csproj",
   "expectedPackageFiles": [
@@ -20,8 +20,8 @@
     "C:\\Users\\Roshan Narode\\.nuget\\packages\\nunit\\4.4.0\\nunit.4.4.0.nupkg.sha512",
     "C:\\Users\\Roshan Narode\\.nuget\\packages\\nunit.analyzers\\4.10.0\\nunit.analyzers.4.10.0.nupkg.sha512",
     "C:\\Users\\Roshan Narode\\.nuget\\packages\\nunit3testadapter\\5.1.0\\nunit3testadapter.5.1.0.nupkg.sha512",
-    "C:\\Users\\Roshan Narode\\.nuget\\packages\\selenium.support\\4.34.0\\selenium.support.4.34.0.nupkg.sha512",
-    "C:\\Users\\Roshan Narode\\.nuget\\packages\\selenium.webdriver\\4.34.0\\selenium.webdriver.4.34.0.nupkg.sha512",
+    "C:\\Users\\Roshan Narode\\.nuget\\packages\\selenium.support\\4.35.0\\selenium.support.4.35.0.nupkg.sha512",
+    "C:\\Users\\Roshan Narode\\.nuget\\packages\\selenium.webdriver\\4.35.0\\selenium.webdriver.4.35.0.nupkg.sha512",
     "C:\\Users\\Roshan Narode\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",
     "C:\\Users\\Roshan Narode\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
     "C:\\Users\\Roshan Narode\\.nuget\\packages\\system.reflection.metadata\\8.0.0\\system.reflection.metadata.8.0.0.nupkg.sha512"

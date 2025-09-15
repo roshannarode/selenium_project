@@ -1,6 +1,18 @@
-
+[
   {
-    "Apple",
-    "Samsung",
-    "Oneplus"
+    "brandName": "Apple"
+
+  },
+  {
+    "brandName": "OnePlus"
+
+  },
+  {
+    "brandName": "Samsung"
+
+  },
+  {
+    "brandName" : "realme"
   }
+ 
+]

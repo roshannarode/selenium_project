@@ -671,10 +671,10 @@
           "build/netcoreapp3.1/NUnit3TestAdapter.targets": {}
         }
       },
-      "Selenium.Support/4.34.0": {
+      "Selenium.Support/4.35.0": {
         "type": "package",
         "dependencies": {
-          "Selenium.WebDriver": "4.34.0"
+          "Selenium.WebDriver": "4.35.0"
         },
         "compile": {
           "lib/netstandard2.0/WebDriver.Support.dll": {
@@ -687,7 +687,7 @@
           }
         }
       },
-      "Selenium.WebDriver/4.34.0": {
+      "Selenium.WebDriver/4.35.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/WebDriver.dll": {
@@ -700,7 +700,21 @@
           }
         },
         "build": {
-          "buildTransitive/Selenium.WebDriver.targets": {}
+          "buildTransitive/netstandard2.0/Selenium.WebDriver.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/native/selenium-manager": {
+            "assetType": "native",
+            "rid": "linux"
+          },
+          "runtimes/osx/native/selenium-manager": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win/native/selenium-manager.exe": {
+            "assetType": "native",
+            "rid": "win"
+          }
         }
       },
       "System.Collections.Immutable/8.0.0": {
@@ -1747,39 +1761,39 @@
         "nunit_256.png"
       ]
     },
-    "Selenium.Support/4.34.0": {
-      "sha512": "+GROvBcro1ayU9PlGu4Q6xGyRk+wlbwGrmL3lZqm+s6T+NVs0Fmp2r8t6DvKMY/ZaDh9svkvxqN808+EnFPhDw==",
+    "Selenium.Support/4.35.0": {
+      "sha512": "K6DiLdDQNDSWI/zh14bk9vRjW8vEX2mhMI2Cq8bD72FM5rOnLhQwZABJHrWCZ3U1wb7KFFd7iQeUhvpyHVt2AA==",
       "type": "package",
-      "path": "selenium.support/4.34.0",
+      "path": "selenium.support/4.35.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
         "lib/netstandard2.0/WebDriver.Support.dll",
         "lib/netstandard2.0/WebDriver.Support.xml",
-        "selenium.support.4.34.0.nupkg.sha512",
+        "selenium.support.4.35.0.nupkg.sha512",
         "selenium.support.nuspec"
       ]
     },
-    "Selenium.WebDriver/4.34.0": {
-      "sha512": "uNx+GF7WugHDPV2zpGDPlbSn3STQ6n0xFskFSeJdhEuuUTkIDfAsYnjVUiQidWDpy7mKzTz53ae7Thjghl3dng==",
+    "Selenium.WebDriver/4.35.0": {
+      "sha512": "C9OrObS2KLyUQDJNRY883JAc4n5q58pBYmY954hf+lGMQQcsz4Ias2mk91lHkLXFX+2qMttya4df9lGP1SLiGQ==",
       "type": "package",
-      "path": "selenium.webdriver/4.34.0",
+      "path": "selenium.webdriver/4.35.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "build/Selenium.WebDriver.targets",
-        "buildTransitive/Selenium.WebDriver.targets",
+        "build/netstandard2.0/Selenium.WebDriver.targets",
+        "buildTransitive/netstandard2.0/Selenium.WebDriver.targets",
         "icon.png",
         "lib/net8.0/WebDriver.dll",
         "lib/net8.0/WebDriver.xml",
         "lib/netstandard2.0/WebDriver.dll",
         "lib/netstandard2.0/WebDriver.xml",
-        "manager/linux/selenium-manager",
-        "manager/macos/selenium-manager",
-        "manager/windows/selenium-manager.exe",
-        "selenium.webdriver.4.34.0.nupkg.sha512",
+        "runtimes/linux/native/selenium-manager",
+        "runtimes/osx/native/selenium-manager",
+        "runtimes/win/native/selenium-manager.exe",
+        "selenium.webdriver.4.35.0.nupkg.sha512",
         "selenium.webdriver.nuspec"
       ]
     },
@@ -1878,8 +1892,8 @@
       "NUnit >= 4.4.0",
       "NUnit.Analyzers >= 4.10.0",
       "NUnit3TestAdapter >= 5.1.0",
-      "Selenium.Support >= 4.34.0",
-      "Selenium.WebDriver >= 4.34.0",
+      "Selenium.Support >= 4.35.0",
+      "Selenium.WebDriver >= 4.35.0",
       "coverlet.collector >= 6.0.4"
     ]
   },
@@ -1953,11 +1967,11 @@
           },
           "Selenium.Support": {
             "target": "Package",
-            "version": "[4.34.0, )"
+            "version": "[4.35.0, )"
           },
           "Selenium.WebDriver": {
             "target": "Package",
-            "version": "[4.34.0, )"
+            "version": "[4.35.0, )"
           },
           "coverlet.collector": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
