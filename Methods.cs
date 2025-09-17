@@ -1,4 +1,5 @@
 ﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,14 @@ namespace Selenium_project
 {
     internal class Methods
     {
-        public static bool isDisplayed(IWebDriver driver , By locator) 
+
+        private readonly IWebDriver driver;
+        public Methods(IWebDriver driver) {
+
+            this.driver = driver;
+        
+        }
+        public static bool isDisplayed(IWebDriver driver ,By locator) 
         {
             bool isVisible;
 
@@ -29,7 +37,7 @@ namespace Selenium_project
             }
              return false;
         }
-
+        /*
         public static void seeMore(IWebDriver driver, By locator)
         {
 
@@ -52,7 +60,8 @@ namespace Selenium_project
                 }
 
             }
-        }
+           
+        }*/
 
     }
 }

@@ -1,12 +1,9 @@
 
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Support.UI;
 using Selenium_project;
 using Selenium_project.POM;
-using Selenium_project.TestData;
-using System.Text.Json;
-using JsonSerializer = System.Text.Json.JsonSerializer;
+
 
 
 namespace Mytra_Project
@@ -16,13 +13,12 @@ namespace Mytra_Project
 
         private IWebDriver driver = new ChromeDriver();
 
-       
 
         [SetUp] 
         public void Setup()
         {
-
             
+            // driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10) ;
 
             driver.Navigate().GoToUrl("https://www.amazon.in");
             driver.Manage().Window.Maximize();
@@ -34,46 +30,26 @@ namespace Mytra_Project
             }
         }
 
+
         [Test]
         public void Search()
         { 
-            
-       
+ 
             SearchPage newpage = new SearchPage(driver);
 
             newpage.searchInput("mobiles");
 
+            filter_By_Brands find_Brands = new filter_By_Brands(driver);
 
-            foreach (var brand in brandNames())
-            {
-                Methods.brands(driver, brand.brandName);
-            }
-
-            
-            bool result = Methods.isDisplayed(driver, By.XPath("//div[@data-cy='title-recipe']//h2[@aria-label='App Store Code']"));
-
-            Assert.AreEqual(
-                true, result, "Sum should be 10");
-
-
+            find_Brands.selectBrand();
 
         }
 
-        public static IEnumerable<BrandData> brandNames()
-        {
-            string jsonfilepath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "brands.json");
-            string jsonString = File.ReadAllText(jsonfilepath);
 
-            var Brands = JsonSerializer.Deserialize<List<BrandData>>(jsonString);
-
-            return Brands;
-        }
-
-        [TearDown]
+        [OneTimeTearDown]
         public void TearDown()
         {
             driver.Quit();
-
         }
     }
 }
