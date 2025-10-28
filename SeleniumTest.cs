@@ -32,21 +32,35 @@ namespace Mytra_Project
 
 
         [Test]
-        public void Search()
+        public void SearchMobiles()
         { 
  
             SearchPage newpage = new SearchPage(driver);
 
+            string filename = "brands.json"; 
             newpage.searchInput("mobiles");
+            filter_By_Brands findProduct = new filter_By_Brands(driver , filename);
+            findProduct.selectBrand();
 
-            filter_By_Brands find_Brands = new filter_By_Brands(driver);
-
-            find_Brands.selectBrand();
 
         }
 
+        [Test]
+        public void SearchTv()
+        {
+            
+            SearchPage search = new SearchPage(driver);
 
-        [OneTimeTearDown]
+            string filename = "TvBrands.json";
+            search.searchInput("Tv");
+            filter_By_Brands findProduct = new filter_By_Brands(driver, filename);
+            findProduct.selectBrand();
+
+
+        }
+
+        
+
         public void TearDown()
         {
             driver.Quit();

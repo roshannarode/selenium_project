@@ -1951,7 +1951,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://art-bobcat.autodesk.com/artifactory/api/nuget/v3/autodesk-3p-nuget/index.json": {}
       },
       "frameworks": {
         "net8.0": {

@@ -37,6 +37,23 @@ namespace Selenium_project
             }
              return false;
         }
+
+        public static bool isDisplayed(IWebDriver driver, IWebElement element) { 
+
+            bool isVisible;
+
+            try
+            {
+                isVisible = element.Displayed;
+            }
+            catch (Exception){ isVisible = false; }
+
+            if (isVisible) 
+            {  
+                return true; 
+            }
+            return false;
+        }
         /*
         public static void seeMore(IWebDriver driver, By locator)
         {
